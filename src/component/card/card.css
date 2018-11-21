@@ -1,0 +1,16 @@
+.rank-symbol {
+    font-size: 40px;
+    padding-top: 57px;
+    margin: auto;
+    line-height: 55px;
+    width: 50px;
+    height: 53px;
+    text-align: center;
+}
+
+.suits-symbol {
+    position: absolute;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+}

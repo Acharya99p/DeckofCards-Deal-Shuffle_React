@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/build
+/tmp
+
+.DS_Store
+*.log
+*.iml
+.vscode
+install.retry

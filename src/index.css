@@ -1,0 +1,46 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.flexRow {
+    display: flex;
+    flex: 1;
+}
+
+.flexColumn {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.my-game-card {
+    background: white;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.13) 0 6px 6px;
+    box-sizing: border-box;
+    padding: 4px;
+    position: relative;
+    width: 125px;
+    height: 175px;
+    cursor: inherit;
+    user-select: none;
+    transition: all 250ms ease 0s;
+    float: left;
+    margin-left: -66px;
+    margin-bottom: 11px;
+}
+
+.cardContainer {
+    margin-left: 75px;
+    margin-top: 50px;
+    padding: 0 250px;
+}
